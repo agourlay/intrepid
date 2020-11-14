@@ -1,0 +1,15 @@
+[package]
+name = "intrepid"
+version = "0.1.0"
+authors = ["Arnaud Gourlay <arnaud.gourlay@gmail.com>"]
+edition = "2018"
+
+[lib]
+name = "intrepid"
+path = "src/lib.rs"
+
+[[bin]]
+name = "usage_examples"
+path = "src/bin.rs"
+
+[dependencies]
